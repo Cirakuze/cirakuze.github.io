@@ -1,7 +1,12 @@
+import { ThemeToggle } from './components/ThemeToggle'
+
 export default function App() {
   return (
-    <main>
-      <h1>Hi!</h1>
-    </main>
+    <>
+      <ThemeToggle />
+      <main>
+        <h1>Hi!</h1>
+      </main>
+    </>
   )
 }

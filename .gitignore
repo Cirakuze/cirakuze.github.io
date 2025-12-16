@@ -4,7 +4,8 @@ node_modules
 # Build output
 dist
 *.tsbuildinfo
-vite.config.d.ts
+*.config.d.ts
+coverage
 
 # Logs
 *.log
